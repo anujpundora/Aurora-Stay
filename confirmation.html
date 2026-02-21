@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmed | Aurora Stay</title>
+    <meta name="description" content="Your booking at Aurora Stay has been successfully confirmed. View your reservation details here.">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Hero Section -->
+    <section class="bg-green-600 text-white py-14 text-center">
+        <div class="max-w-7xl mx-auto px-6">
+            <h1 class="text-3xl md:text-4xl font-bold">
+                🎉 Booking Confirmed!
+            </h1>
+            <p class="mt-3 text-lg">
+                Thank you for choosing Aurora Stay.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Booking Details Section -->
+    <section class="py-16">
+        <div class="max-w-3xl mx-auto px-6 bg-white shadow-lg rounded-lg p-8">
+
+            <h2 class="text-2xl font-bold mb-6 text-center">
+                Reservation Details
+            </h2>
+
+            <div id="bookingDetails" class="space-y-4 text-lg">
+                <!-- JS will inject booking info here -->
+            </div>
+
+            <div class="mt-8 text-center">
+                <a href="index.html"
+                   class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition">
+                   Back to Home
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="js/confirmation.js"></script>
+
+</body>
+</html>
